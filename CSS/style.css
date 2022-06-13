@@ -11,6 +11,30 @@ a {
     padding: 0 4rem;
 }
 
+header{
+    position: fixed;
+    background-color: rgba(123, 123, 123, 0.482);
+   width: 100%;
+   padding: 20px 0;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-all .right a{
+    text-decoration: none;
+    padding: 0 20px;
+    margin-right: 30px;
+    font-size: 17px;
+    color: #fff;
+    transition: .5s;
+}
+.header-all .right a:hover{
+    color: #ff931e;
+}
 #site-entry {
     background-image: url(/Photos/cover.jpg);
     background-position: center;
@@ -80,7 +104,8 @@ a {
 #what .what-all .what-bottom .what-boxes img {
     width: 50%;
 }
-#what .what-all .what-bottom .what-boxes:hover{
+
+#what .what-all .what-bottom .what-boxes:hover {
     background-color: #F6F8FE;
     border-color: #ff931e;
 }
@@ -106,7 +131,8 @@ a {
 #what .what-all .what-top a:hover {
     border-color: orange;
 }
-#solutions{
+
+#solutions {
     padding: 15rem 0rem;
     width: 100%;
     background-image: url(/Photos/solutions_bg-1.jpg);
@@ -116,9 +142,10 @@ a {
     display: flex;
     justify-content: space-between;
     position: relative;
-  
+
 }
-#solutions .solution-text{
+
+#solutions .solution-text {
     width: 50%;
     color: #fff;
     position: absolute;
@@ -128,61 +155,70 @@ a {
     text-align: left;
     font-size: 50px;
     margin-left: 70px;
- 
+
 }
-#solutions .solution-list{
+
+#solutions .solution-list {
     width: 50%;
     color: #fff;
     background-color: #2d3192;
     opacity: .7;
-   position: absolute;
-   top :0;
-   bottom: 0;
-   left: 50%;
-   overflow: hidden;
-   
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    overflow: hidden;
+
 }
-#solutions .solution-list li h3{
-   padding: 30px 0;
-   margin-left: 5rem;
-   border-bottom: 1px solid #9a9a9a;
-   
+
+#solutions .solution-list li h3 {
+    padding: 30px 0;
+    margin-left: 5rem;
+    border-bottom: 1px solid #9a9a9a;
+
 }
-#opportunities{
+
+#opportunities {
     padding: 10rem 4rem;
     font-family: Arial, Helvetica, sans-serif;
-   
+
 }
-#opportunities .op-content{
+
+#opportunities .op-content {
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
 }
-#opportunities .op-content h3{
+
+#opportunities .op-content h3 {
     font-size: 48px;
     color: #ff931e;
 }
-#opportunities .op-content p{
+
+#opportunities .op-content p {
     font-size: 14px;
     color: #222222;
 }
-#opportunities  .op-text h2{
+
+#opportunities .op-text h2 {
     font-size: 36px;
     color: #2d3192;
-    
+
 }
-#clients{
+
+#clients {
     background-color: #F6F8FE;
-    
-}
-#clients .client-content{
-display: flex;
-width: 100%;
-flex-wrap: wrap;
 
 }
 
-#clients .client-content .client-boxes{
+#clients .client-content {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+#clients .client-content .client-boxes {
     width: 17%;
     border: 1px solid #0e80e5;
     padding: 10px 40px;
@@ -192,24 +228,28 @@ flex-wrap: wrap;
     margin: 30px 20px 20px 0;
     transition: .5s;
     cursor: pointer;
-    
+
 }
-#clients .client-content .client-boxes:hover{
+
+#clients .client-content .client-boxes:hover {
     border-color: #ff931e;
 }
-#clients .client-content .client-boxes img{
+
+#clients .client-content .client-boxes img {
     width: 65%;
 }
-#clients .client-content .client-boxes h4{
+
+#clients .client-content .client-boxes h4 {
     font-size: 24px;
     color: #333333;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     margin-top: 55px;
-    
+
 }
-#clients .client-text h2{
+
+#clients .client-text h2 {
     font-size: 36px;
     color: #2d3192;
     margin-bottom: 10px;
